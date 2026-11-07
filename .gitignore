@@ -1,0 +1,9 @@
+*.parquet
+*.pkl
+*.xlsx
+*.zip
+__pycache__/
+.venv/
+**/jobs/
+**/out/
+data_inputs/

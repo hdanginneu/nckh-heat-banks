@@ -1,0 +1,13 @@
+{
+ "frozen_at": "2026-11-06T06:42:17",
+ "files": {
+  "PAP_v2.1.md": "f4750b8ae7af2f75d1a1f702557a8fcbce0994b1f4bcfe4346ae0564784569fd",
+  "rq3_v21/_v21.py": "3ea84354af25d5c70ce3534dfb17ee703af1818c701a1323c756c8dc3c4db6e2",
+  "rq3_v2/_v2_build.py": "a1d678fc95760ed04ad86b1ea508af61ecbb8c1d48dcbd5b060eb9a9278e2066",
+  "rq3_v2/_v2_fast.py": "0b72afb12f0f1b21fc0db13d7ce6ef1e3159122637b400d90f49ea9f7b6c03d1",
+  "rq3_v2/_v2_ri.py": "b06a2c954e4911ef83688cd1fd7b74616d509f3dbafbbefba942a652d721905c",
+  "rq3_v2/_v2_spec.py": "cea89de153a421a70ab56b8eff0ef913af122f53da8d9b6c9264d1f724b18ec9",
+  "scripts/_pap_est.py": "aebf6e2e30815bd280e3b90b2fdb132bc6953672d7e4442f2fc15fbc0fa99e6d",
+  "scripts/_pap_common.py": "8b1cce6f3f20dcd52622bf531b70278cd5905e108880ab4be6c5df14da2eaef1"
+ }
+}

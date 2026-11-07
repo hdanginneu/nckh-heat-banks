@@ -1,0 +1,20 @@
+{
+ "frozen_at": "2026-11-05T18:50:52",
+ "files": {
+  "PAP_v2.md": "f798090c89f764de8c631e35b5520b85ddadbfbcf6c3ec2297999dee40699d34",
+  "rq3_v2/10_run_rq3_v2.py": "b4f780bab059848d59753e05be85343dca8b27485b2f16243169d15ddbf6345f",
+  "rq3_v2/T0_checks.py": "07923cfb57a4c48fadc1ced4e8934f76c8ef3d1a0dfe4e55e8a58c95cbbc7ef6",
+  "rq3_v2/T1_time_and_placebo.py": "7b02f7d67f3f7de31335ca91e6c8afd93979dfaee83f234e4fe661291591f0f5",
+  "rq3_v2/T2_lead_corr.py": "ec38ff231c7738e6cd41f8ab261a54447fa7a46a2e4f69b06e98e2d59bd0a585",
+  "rq3_v2/T3_size_yearperm.py": "c00367e458903e02170458c1330ca34e5c267e7475ef3df861b7d83316c621b4",
+  "rq3_v2/T4_variants_perm.py": "2170d73247ca7191b784f2be4bd9bf51638cd9d4166ec428b09c2639f14a848d",
+  "rq3_v2/T5_perm_infra.py": "51c8b50a448ba63c63813580a18064b664c6d22ea3209cfcdd487e48fb04a226",
+  "rq3_v2/T6_ri_mde.py": "5c5c518c6a3fb5e1133f9bbf1b923614e1f1102962cad38b5566d9e282bd94fd",
+  "rq3_v2/_v2_build.py": "a1d678fc95760ed04ad86b1ea508af61ecbb8c1d48dcbd5b060eb9a9278e2066",
+  "rq3_v2/_v2_fast.py": "0b72afb12f0f1b21fc0db13d7ce6ef1e3159122637b400d90f49ea9f7b6c03d1",
+  "rq3_v2/_v2_ri.py": "b06a2c954e4911ef83688cd1fd7b74616d509f3dbafbbefba942a652d721905c",
+  "rq3_v2/_v2_spec.py": "cea89de153a421a70ab56b8eff0ef913af122f53da8d9b6c9264d1f724b18ec9",
+  "scripts/_pap_est.py": "aebf6e2e30815bd280e3b90b2fdb132bc6953672d7e4442f2fc15fbc0fa99e6d",
+  "scripts/_pap_common.py": "8b1cce6f3f20dcd52622bf531b70278cd5905e108880ab4be6c5df14da2eaef1"
+ }
+}

@@ -1,0 +1,36 @@
+N ngân hàng: 8254 | có cov_dep: 7655 | w_cov median 1.0
+=== phân phối bao phủ (liability/doanh thu cây trồng 2001-05) ===
+        cov_dep  cov_crop
+count  7655.000  7655.000
+mean      0.365     0.371
+std       0.262     0.293
+min       0.001     0.001
+5%        0.028     0.030
+25%       0.139     0.144
+50%       0.332     0.334
+75%       0.553     0.552
+95%       0.780     0.780
+max       3.055    10.360
+--- trong ngân hàng FarmShare>=15% (chỉ mô tả, N=2373) ---
+        cov_dep  cov_crop
+count  2348.000  2348.000
+mean      0.559     0.556
+std       0.241     0.236
+min       0.001     0.001
+5%        0.107     0.111
+25%       0.424     0.423
+50%       0.588     0.587
+75%       0.714     0.713
+95%       0.864     0.858
+max       3.055     3.055
+tương quan (toàn mẫu):
+                     farmshare_pre  cov_dep  cov_crop  log_total_assets_l1
+farmshare_pre                1.000    0.550     0.475               -0.385
+cov_dep                      0.550    1.000     0.860               -0.271
+cov_crop                     0.475    0.860     1.000               -0.225
+log_total_assets_l1         -0.385   -0.271    -0.225                1.000
+phương sai bao phủ GIỮA division / tổng (FS>=15%):  0.255
+{'y': 'S_prov_cum_h0', 'test': 'Heat×Clim (toàn mẫu)', 'n': 87048, 'n_banks': 7521, 'se0': 0.006594270886106962, 'mde80': 0.018474509314517266, 'mde_sd': 0.025064402115765733}
+{'y': 'S_prov_cum_h0', 'test': 'Heat×FS10×Cov (toàn mẫu, kèm Heat×FS10, Heat×Cov)', 'n': 81816, 'n_banks': 6995, 'se0': 0.0024731920921973283, 'mde80': 0.006928894965500035, 'mde_sd': 0.00952671331927642}
+{'y': 'dALLOW_h0', 'test': 'Heat×Clim (toàn mẫu)', 'n': 87048, 'n_banks': 7521, 'se0': 0.004905595807319314, 'mde80': 0.013743517213785791, 'mde_sd': 0.035795911182899515}
+{'y': 'dALLOW_h0', 'test': 'Heat×FS10×Cov (toàn mẫu, kèm Heat×FS10, Heat×Cov)', 'n': 81816, 'n_banks': 6995, 'se0': 0.0017370344501366976, 'mde80': 0.004866475715502972, 'mde_sd': 0.01287478284074977}
