@@ -1,3 +1,5 @@
+# Dùng chung cho macOS và Windows (Python 3.10). Không có gói phụ thuộc hệ điều hành.
+# Cài: xem README mục 1 (lệnh khác nhau giữa Mac và Windows).
 pandas==2.3.3
 numpy==2.2.6
 scipy==1.15.3

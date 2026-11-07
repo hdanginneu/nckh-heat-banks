@@ -12,4 +12,5 @@ mkdir -p "$REPO/_claude_pap/out" "$REPO/_claude_pap/rq3_explore"
 ln -sfn "$DATA/_claude_pap/out/county_panel.parquet" "$REPO/_claude_pap/out/county_panel.parquet"
 ln -sfn "$DATA/_claude_pap/out/bank_panel.parquet" "$REPO/_claude_pap/out/bank_panel.parquet"
 ln -sfn "$DATA/_claude_pap/rq3_explore/bank_coverage_pre.parquet" "$REPO/_claude_pap/rq3_explore/bank_coverage_pre.parquet"
+mkdir -p /tmp/g1   # script thăm dò rq3_explore/G*.py ghi vào đây
 echo "OK: $ROOT -> repo + data_inputs"
