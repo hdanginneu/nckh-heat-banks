@@ -1,6 +1,6 @@
 # Từ điển biến panel_v3 (bước S2)
 
-Tạo bởi `build_v3.py` (12/11/2026). File: `~/mnt/NCKH - NEU/_claude_pap/rq3_v3/out/panel_v3.parquet`, 107.502 dòng (ngân hàng × năm), 8.254 ngân hàng, t = 2006–2024, 228 cột. Không commit file parquet.
+Tạo bởi `build_v3.py` (12/11/2026). File: `~/mnt/NCKH - NEU/_claude_pap/rq3_v3/out/panel_v3.parquet`, 107.502 dòng (ngân hàng × năm), 8.254 ngân hàng, t = 2006–2024, 248 cột (145 cột v2 + 103 cột mới). Không commit file parquet.
 
 145 cột đầu là panel v2, trùng khớp tuyệt đối với `rq3_v2/out/panel_v2.parquet` (xem QA). Mã Call Report của từng biến gốc: `data/codebook_v3.csv`.
 
@@ -28,6 +28,8 @@ Tạo bởi `build_v3.py` (12/11/2026). File: `~/mnt/NCKH - NEU/_claude_pap/rq3_
 | `NCOag_h{h}` | NCO cộng dồn của đất NN + vay sản xuất NN / dư nợ NN_{t−1} | Thăm dò; thiếu theo FarmShare |
 | `alive_h{h}` | 1 nếu ngân hàng có số liệu ở mọi năm t..t+h | Kiểm attrition |
 | `ag_loans_l1` | Dư nợ NN năm t−1 (> 0) | Mẫu số |
+| `PRE_<biến>_m{2,3}` | Placebo theo thời gian (Thịnh §8.3): thay đổi từ t−1 về t−m (tồn) hoặc NCO các năm t−m..t−2 (dòng), cùng mẫu số t−1 | Placebo đăng ký |
+| `EXIT_h{h}` | 1 nếu ngân hàng có số ở t nhưng thiếu ở một năm nào trong t+1..t+h. Chỉ có nghĩa khi t + h ≤ 2025 | Kiểm attrition (§8.4) |
 | `Dr` | Σ_c w_{b,t,c} · (số tuần D2+ có trọng số diện tích của hạt c, tháng 4–9 năm t); w = trọng số tiền gửi footprint t−1 như Heat | Hạn hán, biến kiểm soát |
 | `Dr3` | Như `Dr` với D3+ | Hạn hán, biến phụ |
 | `Dr_wcov` | Tỷ lệ trọng số tiền gửi có số liệu USDM (= 1 ở mọi dòng) | QA |
