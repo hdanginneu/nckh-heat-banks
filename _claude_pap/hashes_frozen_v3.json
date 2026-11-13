@@ -1,0 +1,19 @@
+{
+ "frozen_at": "2026-11-13T13:35:17",
+ "files": {
+  "PAP_v3.md": "277645e37db2fbc69e236ede95c439562ca8924bac8c67a07e2eee0c0bc7a852",
+  "rq3_v3/_v3_spec.py": "ff1f433f522ab8a38c8403c568ea7bbba6bf0b2ec539de8125ef9ba754b5860a",
+  "rq3_v3/run_v3.py": "9e2c7f4613f284f95e7cab2fe9a6739c968e77c0f9cd47a2fad44af988afd1be",
+  "rq3_v3/build_v3.py": "0ab46aebda95e9a348bf4e9bf2770727773fb7002e66e1b839dfb81d3289460f",
+  "rq3_v3/sesoi_v3.py": "fda0b7e69231ddc311099e28672082946fccec3b340e63606647c1bc3247f604",
+  "rq3_v3/sesoi_v3.json": "8656c64b98354c46ab165a1d6e3c5779e082a8558d06ba14c3ad43ef12d2dadf",
+  "rq3_v3/data/build_drought.py": "785ae7545c9f84d5100d84561b3e1c33f27c38fea4f8403d222ca2c5ebe29d49",
+  "rq3_v3/data/fetch_usdm.py": "b9173ca350bef78ca6800ea0b52fe2798d5fbba3106beef26bacbadef8e0f563",
+  "rq3_v3/data/make_codebook.py": "46e8f27422339ca28c72db8e070c4f4364d5ea47da3f37f964ba7d0345ed3919",
+  "rq3_v3/data/codebook_v3.csv": "3bca018dee6e91767d50e77d5d708eecdf7504fc4d8aff8f7192efd90b238da0"
+ },
+ "data": {
+  "_claude_pap/rq3_v3/out/panel_v3.parquet": "a72f9e4fc35a91b4d7c4dd479dca12b9f65f0ffb29ac6482b731fac3c2c95f47",
+  "data_external/usdm/county_year_drought.parquet": "f732b0e85094a73a5c7b646a3e5c9c31add60c4ee478757da0930ce4765e379a"
+ }
+}

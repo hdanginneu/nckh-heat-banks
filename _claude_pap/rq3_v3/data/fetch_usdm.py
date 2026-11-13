@@ -5,7 +5,7 @@ Mỗi file thô = một bang × một năm, các tuần có MapDate từ 25/3 đ
 Lệnh: python3 fetch_usdm.py [số_luồng] [ngân_sách_giây]"""
 import os, sys, time, subprocess
 from concurrent.futures import ThreadPoolExecutor
-OUT = os.path.expanduser("~/mnt/NCKH - NEU/data_external/usdm/raw")
+OUT = os.path.expanduser("~/mnt/NCKH - NEU/data_external/usdm/raw"); os.makedirs(OUT, exist_ok=True)
 STATES = ("AL AZ AR CA CO CT DE DC FL GA ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD "
           "TN TX UT VT VA WA WV WI WY").split()
 YEARS = range(2005, 2026)

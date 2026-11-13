@@ -12,5 +12,10 @@ mkdir -p "$REPO/_claude_pap/out" "$REPO/_claude_pap/rq3_explore"
 ln -sfn "$DATA/_claude_pap/out/county_panel.parquet" "$REPO/_claude_pap/out/county_panel.parquet"
 ln -sfn "$DATA/_claude_pap/out/bank_panel.parquet" "$REPO/_claude_pap/out/bank_panel.parquet"
 ln -sfn "$DATA/_claude_pap/rq3_explore/bank_coverage_pre.parquet" "$REPO/_claude_pap/rq3_explore/bank_coverage_pre.parquet"
+# _pap_common.py lấy ROOT theo đường dẫn THẬT của file (sau symlink) = repo → repo cũng cần các thư mục dữ liệu
+for d in _drive_latest data_external _claude_eda _claude_feasibility; do ln -sfn "$ROOT/$d" "$REPO/$d"; done
+# dữ liệu v3 (không có trong git)
+mkdir -p "$REPO/_claude_pap/rq3_v3"
+[ -e "$REPO/_claude_pap/rq3_v3/out" ] || ln -sfn "$DATA/_claude_pap/rq3_v3/out" "$REPO/_claude_pap/rq3_v3/out"
 mkdir -p /tmp/g1   # script thăm dò rq3_explore/G*.py ghi vào đây
 echo "OK: $ROOT -> repo + data_inputs"
