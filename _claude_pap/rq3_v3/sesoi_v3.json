@@ -1,0 +1,48 @@
+{
+ "C1": {
+  "primary": 0.012865530457677313,
+  "alt": 0.006432765228838656,
+  "r_primary": 0.126,
+  "r_alt": 0.063,
+  "ybar_ref": 0.25526846146185145,
+  "n_ref": 16970,
+  "rule": "r × ȳ_ref / 2,5",
+  "source": "Lu & Nikolaev 2024, Bảng 2A: lỗ muộn năm 5–6 cộng 2 năm = 12,6% NCO bình quân một năm; alt = 6,3% (một năm)"
+ },
+ "C2": {
+  "primary": 0.011995795942141334,
+  "alt": 0.013195375536355466,
+  "r_primary": 0.02,
+  "r_alt": 0.022,
+  "ybar_ref": 1.4994744927676666,
+  "n_ref": 15789,
+  "rule": "r × ȳ_ref / 2,5",
+  "source": "Lu & Nikolaev 2024, Bảng 2A cột 4: ALL muộn trừ sớm = 2,0% ALL bình quân (ghép cách A); alt = 2,2% (cách B)"
+ },
+ "C3": {
+  "primary": 0.00719700235174766,
+  "alt": 0.019557071608009947,
+  "r_primary": 0.092,
+  "r_alt": 0.25,
+  "ybar_ref": 0.19557071608009946,
+  "n_ref": 17330,
+  "rule": "r × ȳ_ref / 2,5",
+  "source": "Özsoy et al. 2025, Bảng 2 cột 4: cận dưới một phía 5% = 9,2% NPL bình quân; alt = 25% (ước lượng điểm +0,40 điểm %)"
+ },
+ "C4": {
+  "primary": 0.21335646030932032,
+  "alt": null,
+  "sd_y": 5.333911507733008,
+  "n": 97526,
+  "rule": "0,10 × SD(y trong mẫu ước lượng, sau winsorize) / 2,5",
+  "source": "quy ước kế thừa PAP v2 (ΔLIQ); không có neo tài liệu"
+ },
+ "C5": {
+  "primary": 0.30756961844818476,
+  "alt": null,
+  "sd_y": 7.6892404612046175,
+  "n": 86143,
+  "rule": "0,10 × SD(y trong mẫu ước lượng, sau winsorize) / 2,5",
+  "source": "quy ước kế thừa PAP v2 (ΔLIQ); không có neo tài liệu"
+ }
+}
