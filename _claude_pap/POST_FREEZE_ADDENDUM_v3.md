@@ -58,3 +58,20 @@ Kiểm nhất quán: E2_base (cùng mẫu, cùng đặc tả với C3 và placeb
 → Thanh khoản tăng chủ yếu vì **dư nợ giảm và bảng cân đối co lại**, phần tài sản giải phóng chuyển sang chứng khoán. **Tiền gửi giảm, không tăng** — trái với dòng tiền gửi đổ vào sau hạn hán trong Brei et al. (2026). Dư nợ và tiền gửi cùng giảm phù hợp với việc khách hàng dùng tiền gửi (có thể gồm cả tiền bồi thường) để trả nợ [I], nhưng không phân biệt được với ngân hàng thắt chặt cho vay. Dư nợ phi NN giảm: v2 đã thấy phần này có placebo lead hỏng, nên không quy cho nhiệt.
 
 **E4 — bỏ hẳn ngân hàng áp dụng CECL sớm** (5.949 ngân hàng): C2 = −0,0021, CI90 [−0,011; 0,0072], trong ±0,0120 với biên rộng hơn bản gốc → kết luận C2 không do nhận diện CECL sai.
+
+## Bổ sung 13/11 (sau khi đã xem kết quả E1–E4): hiệu chỉnh đa kiểm định cho E3
+
+Quyết định thêm sau khi đã thấy p chưa hiệu chỉnh của E3, để kiểm xem phân tách bảng cân đối có sống sót khi coi 8 khoản mục là một họ. Không chạy lại hồi quy: dùng ma trận hoán vị đã lưu (`results_explore/jobs/E3_*.json`, cùng π), công thức Westfall–Young step-down max-|t| như PAP §5.3. Script `rq3_v3/wy_e3.py`, kết quả `rq3_v3/results_explore/e3_wy.csv`.
+
+| Khoản mục | θ | p_RI | p_WY |
+|---|---|---|---|
+| ΔL tổng dư nợ | −0,358 | 0,001 | 0,001 |
+| ΔAG dư nợ nông nghiệp | −0,137 | 0,001 | 0,003 |
+| ΔNONAG dư nợ phi NN | −0,180 | 0,017 | 0,058 |
+| ΔDEP tiền gửi | −0,221 | 0,021 | 0,068 |
+| ΔTA tổng tài sản | −0,204 | 0,042 | 0,135 |
+| ΔSEC chứng khoán | +0,110 | 0,056 | 0,135 |
+| ΔCASH tiền mặt + liên NH | +0,011 | 0,862 | 0,862 |
+| ΔLA tài sản thanh khoản | +0,127 | 0,113 | 0,196 |
+
+Đọc: co dư nợ (tổng và nông nghiệp) vững sau hiệu chỉnh; tiền gửi giảm chỉ ở mức gợi ý (p_WY 0,07).
