@@ -13,7 +13,7 @@ def sha(p):
 out = f"{HERE}/hashes_frozen_p2.json"
 assert not os.path.exists(out), "Đã đóng băng rồi; không ghi đè."
 H = {f: sha(f"{HERE}/{f}") for f in FILES}
-H.update({p: sha(p) for p in DATA})
+H.update({p.replace(ROOT, "ROOT:"): sha(p) for p in DATA})          # đường dẫn tương đối theo ROOT để chạy được trên mọi máy
 json.dump(H, open(out, "w"), indent=1)
 open(f"{HERE}/FROZEN_AT_P2.txt", "w").write(datetime.datetime.now().astimezone().isoformat() + "\n")
 print(json.dumps(H, indent=1))

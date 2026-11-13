@@ -29,7 +29,8 @@ def guard_real():
     hf = f"{HERE}/hashes_frozen_p2.json"
     assert os.path.exists(hf), "Chưa đóng băng PAP_P2 (chạy freeze_p2.py)."
     H = json.load(open(hf))
-    bad = [k for k, v in H.items() if sha(k if os.path.isabs(k) else f"{HERE}/{k}") != v]
+    path = lambda k: k.replace("ROOT:", ROOT) if k.startswith("ROOT:") else f"{HERE}/{k}"
+    bad = [k for k, v in H.items() if sha(path(k)) != v]
     assert not bad, f"Hash không khớp: {bad}"
 
 # ---------- dựng biến ----------
