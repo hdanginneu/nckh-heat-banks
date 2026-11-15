@@ -1,0 +1,22 @@
+# Kết luận theo quy tắc R1–R12
+
+- Kiểm tái lập θ chính của v3: |lệch| lớn nhất = 8.33e-17
+- R1: β = -0.0936, CI95 [-0.1390; -0.0483], n = 89954 → nhánh A.
+- R2: xem các dòng R2 (biên tương đương nhỏ nhất loại trừ được, so với Δ).
+- R3: không thống kê nào lệch quá 0,5Δ.
+- R8: VẤN ĐỀ THẬT ở C1 (lệch -0.0522 so với 0,5Δ = 0.0064); C2 (lệch -0.0154 so với 0,5Δ = 0.0060); C5 (lệch -0.5666 so với 0,5Δ = 0.1538)
+- R10: không thống kê nào lệch quá 0,5Δ.
+- R4 C1: lệch lớn nhất -0.0215 (R4_C1_dd7); 0,5Δ = 0.0064.
+- R4 C2: lệch lớn nhất -0.0079 (R4_C2_dd7); 0,5Δ = 0.0060.
+- R4 C3: lệch lớn nhất +0.0021 (R4_C3_dd8); 0,5Δ = 0.0036.
+- R4 C5: lệch lớn nhất +0.1619 (R4_C5_dd7); 0,5Δ = 0.1538.
+- R4: VẤN ĐỀ THẬT — C1: R4_C1_dd0, R4_C1_dd3, R4_C1_dd6, R4_C1_dd7, R4_C1_dy2011, R4_C1_dy2017; C2: R4_C2_dd7; C5: R4_C5_dd7
+- R5: θ_r = -0.0036 (> −0,0065) → phần lớn mức giảm dự phòng đi cùng dư nợ co lại; sửa mục 6.2.
+- R6: không bác được giả định tuyến tính theo FarmShare.
+- R7: không thấy khác biệt giữa vùng nóng và lạnh.
+- R9: phân loại không đổi khi hoán vị cả nhiệt và mưa.
+- R10 (phân loại): không đổi.
+- R11b (thăm dò): hệ số H×FS10×INS = 0.0016, p = 0.968 → vẫn không thấy khác biệt theo mức bảo hiểm sau khi cho nhiệt khác theo vùng.
+- R12 (thăm dò): không thấy khác biệt giữa ngân hàng một hạt và nhiều hạt. (hiệu AGLt = +0.0769, p_Holm = 0.521)
+- R8 mô tả: 8.7% hàng (b, t) 2007–2024 có cửa sổ FarmShare_pre chứa năm t hoặc năm sau t.
+- R9 mô tả: |mưa dựng lại − mưa trong panel| lớn nhất = 1.78e-15.
