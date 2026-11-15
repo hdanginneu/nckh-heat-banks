@@ -1,0 +1,25 @@
+bien,ma_MDRM
+total_assets_kusd,"RCFD2170 nếu có, không thì RCON2170"
+total_loans_kusd,"RCFD2122 nếu có, không thì RCON2122"
+ag_production_loans_kusd,"RCFD1590 nếu có, không thì RCON1590"
+htm_securities_kusd,"RCFD1754 nếu có, không thì RCON1754"
+afs_securities_kusd,"RCFD1773 nếu có, không thì RCON1773"
+allowance_legacy_kusd,"RCFD3123 nếu có, không thì RCON3123"
+total_equity_kusd,"RCFD3210 nếu có, không thì RCON3210"
+farmland_loans_kusd,RCON1420
+cash_and_due_kusd,(RCFD|RCON)0081 + (RCFD|RCON)0071
+fed_funds_sold_kusd,2002–2004: RCONB987 + (RCFD|RCON)B989; 1994–2001: (RCFD|RCON)1350
+chargeoffs_ytd_kusd,RIAD4635
+recoveries_ytd_kusd,RIAD4605
+farmland_chargeoff,RIAD3584
+farmland_recovery,RIAD3585
+farm_chargeoff,RIAD4655
+farm_recovery,RIAD4665
+net_income_ytd_kusd,RIAD4340
+provision_ytd_kusd,RIAD4230
+farmland_pd30_89,"RCON3493 nếu có, không thì RCFD3493"
+farmland_pd90,"RCON3494 nếu có, không thì RCFD3494"
+farmland_nonaccrual,"RCON3495 nếu có, không thì RCFD3495"
+farm_pd30_89,"RCON1594 nếu có, không thì RCFD1594"
+farm_pd90,"RCON1597 nếu có, không thì RCFD1597"
+farm_nonaccrual,"RCON1583 nếu có, không thì RCFD1583"
