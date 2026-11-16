@@ -1,0 +1,13 @@
+bước,bank-năm,số ngân hàng
+"Ngân hàng cộng đồng, t 1995–2006",94845,10881
+Trụ sở 48 bang + DC,94585,10842
+"Có nhiệt footprint (tổng trọng số ≥ 0,98)",91478,10460
+"Đủ controls t−1, division, toạ độ trụ sở, nhiệt, mưa",91253,10441
+Có FarmShare_pre,91252,10440
+… ngân hàng nông nghiệp (FarmShare_pre ≥ 25%),27094,2643
+C1: có NCOc_h6,70809,7614
+C2: có ALLOW_h6,70809,7614
+C3: có PDNAflt_h1,33752,7548
+C4: có LIQ_h0,90891,10440
+C5: có AGLt_h2,82904,9439
+Kiểm: |nhiệt dựng lại từ W − nhiệt trong panel| lớn nhất (mẫu 500 hàng) = 0.00e+00,0,0

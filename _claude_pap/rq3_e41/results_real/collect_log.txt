@@ -1,0 +1,15 @@
+ rule stat   theta     n   banks     years  sd_adj  kappa   p_RI  ci90_lo  ci90_hi  ci95_lo  ci95_hi  mde80   p_WY  delta  tost status  theta_main  sd_main status_main  z_diff  theta_same_sample_orig    diff  half_delta problem
+E41-2   C1 -0.0197 70809  7614.0 1995–2006  0.0285 1.0000 0.5265  -0.0666   0.0272  -0.0756   0.0362 0.0799 0.8412 0.0129 False      ?     -0.0120   0.0186           ? -0.2276                     NaN     NaN         NaN     NaN
+E41-2   C2 -0.0062 70809  7614.0 1995–2006  0.0081 1.0000 0.4476  -0.0196   0.0071  -0.0221   0.0097 0.0227 0.8412 0.0120 False      ?     -0.0023   0.0059           0 -0.3956                     NaN     NaN         NaN     NaN
+E41-2   C3  0.0098 33752  7548.0 2002–2006  0.0065 1.1809 0.0789  -0.0010   0.0205  -0.0031   0.0226 0.0183 0.3477 0.0072 False      ?     -0.0008   0.0029           0  1.4765                     NaN     NaN         NaN     NaN
+E41-2   C4  0.0130 90891 10440.0 1995–2006  0.0590 1.0000 0.8322  -0.0840   0.1099  -0.1026   0.1285 0.1651 0.8412 0.2134  True      0      0.1753   0.0462           + -2.1658                     NaN     NaN         NaN     NaN
+E41-2   C5 -0.1625 82904  9439.0 1995–2006  0.1558 1.0000 0.3187  -0.4187   0.0937  -0.4678   0.1428 0.4362 0.7722 0.3076 False      ?     -0.1440   0.1512           ? -0.0853                     NaN     NaN         NaN     NaN
+E41-4   C1  0.0436 70809     NaN       NaN     NaN    NaN    NaN      NaN      NaN      NaN      NaN    NaN    NaN    NaN   NaN    NaN         NaN      NaN         NaN     NaN                 -0.0197  0.0633      0.0064    True
+E41-4   C2  0.0177 70809     NaN       NaN     NaN    NaN    NaN      NaN      NaN      NaN      NaN    NaN    NaN    NaN   NaN    NaN         NaN      NaN         NaN     NaN                 -0.0062  0.0239      0.0060    True
+E41-4   C3  0.0048 33752     NaN       NaN     NaN    NaN    NaN      NaN      NaN      NaN      NaN    NaN    NaN    NaN   NaN    NaN         NaN      NaN         NaN     NaN                  0.0098 -0.0050      0.0036    True
+E41-4   C4  0.1013 90888     NaN       NaN     NaN    NaN    NaN      NaN      NaN      NaN      NaN    NaN    NaN    NaN   NaN    NaN         NaN      NaN         NaN     NaN                  0.0128  0.0885      0.1067   False
+E41-4   C5 -0.9859 82904     NaN       NaN     NaN    NaN    NaN      NaN      NaN      NaN      NaN    NaN    NaN    NaN   NaN    NaN         NaN      NaN         NaN     NaN                 -0.1625 -0.8234      0.1538    True
+E41-2 (phân loại C1–C5 trên mẫu mở rộng, WY trên C1, C2, C3, C4, C5): C1: ? (bài: ?); C2: ? (bài: 0); C3: ? (bài: 0); C4: 0 (bài: +); C5: ? (bài: ?)
+E41-1 (C4, kết quả chính): θ = 0.0130 [CI95 -0.1026; 0.1285], p_RI = 0.832; bài: 0.1753; z hiệu = -2.17 → KHÔNG TÁI LẬP.
+E41-3: C3 chỉ ước lượng được trên năm sốc 2002–2006 (thiếu quá hạn 30–89 ngày trước Call Report 2001).
+E41-4 (FarmShare t−1): lệch quá 0,5Δ ở C1 (+0.0633); C2 (+0.0239); C3 (-0.0050); C5 (-0.8234)
