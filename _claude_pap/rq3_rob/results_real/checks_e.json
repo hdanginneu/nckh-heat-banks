@@ -1,0 +1,17 @@
+{
+ "E47": {
+  "n_bank_years": 17337,
+  "n_with_ni_and_t1": 16976,
+  "n_banks": 1216,
+  "share_ni_equals_q4_ytd": 1.0,
+  "median_ni_to_tier1": 0.09432088793850521,
+  "p25_ni_to_tier1": 0.060897606394743925,
+  "p75_ni_to_tier1": 0.13081542220643458,
+  "share_bank_years_loss": 0.0452212032070139,
+  "median_nco_to_tier1": 0.004254622478965741,
+  "bound_c1_pct_tier1": 0.2883229701925025,
+  "bound_c1_pooled_pct_tier1": 0.17564311533694346,
+  "bound_as_share_of_one_year_ni": 0.03056830533449618,
+  "pooled_bound_as_share_of_one_year_ni": 0.018621868302539545
+ }
+}
